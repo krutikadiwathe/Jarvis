@@ -20,7 +20,7 @@ engine.setProperty('voice', voices[1].id)
 
 def play_spotify_playlist():
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-        client_id='b97707897cd94f4f95846e0afe23307d',
+        client_id='client_id',
         client_secret='Client_secret',
         redirect_uri='http://127.0.0.1:8888/callback',
         scope='user-read-playback-state user-modify-playback-state'
@@ -37,7 +37,7 @@ def play_spotify_playlist():
 
 def pause_spotify_music():
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-        client_id='b97707897cd94f4f95846e0afe23307d',
+        client_id='client_id',
         client_secret='Client_secret',
         redirect_uri='http://127.0.0.1:8888/callback',
         scope='user-read-playback-state user-modify-playback-state'
