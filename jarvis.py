@@ -111,13 +111,13 @@ if __name__ == "__main__":
         elif 'open google' in query:
             webbrowser.open('google.com')
 
-        elif 'open stackoverflow' in query:
+        elif 'open stack overflow' in query:
             webbrowser.open('stackoverflow.com')
 
         elif 'open linkedin' in query:
             webbrowser.open('linkedin.com')
 
-        elif 'play music' in query or 'open spotify' in query:
+        elif 'play music' in query:
             speak("Playing your playlist on Spotify...")
             play_spotify_playlist()
 
@@ -127,11 +127,9 @@ if __name__ == "__main__":
 
         elif 'open spotify' in query:
             speak("Opening Spotify app.")
-            subprocess.Popen(
-                r'explorer shell:AppsFolder\SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify'
-            )
+            webbrowser.open("https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M")
 
-        elif 'the time'in query:
+        elif 'time'in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Kay, the time is {strTime}")
 
@@ -149,9 +147,3 @@ if __name__ == "__main__":
 
         elif 'my name' in query:
             speak("Your name is Krutika, Everyone calls you kay")
-
-
-
-
-        
-
