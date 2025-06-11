@@ -21,8 +21,7 @@ This project showcases real-time voice interaction, API integration, and automat
 
 ## 🎥 Demo Video
 
-📽️ [Watch the full walkthrough here] 
-> *(Replace the `#` with your YouTube or video file link)*
+📽️ [Watch the full walkthrough here] https://www.linkedin.com/feed/update/urn:li:ugcPost:7338420757510713344/
 
 ---
 
